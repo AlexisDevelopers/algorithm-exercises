@@ -2,6 +2,8 @@
 
 Algorithm exercises based on array data structures.
 
+---
+
 ## Algorithms covered
 
 - Two Sum
@@ -16,8 +18,10 @@ Algorithm exercises based on array data structures.
 - Single Number
 - Valid Sudoku
 
-## Notes
+---
 
-- Each file contains a standalone solution.
-- Files are named after the algorithm.
-- Solutions are organized by category at the repository root.
+## Languages
+
+- TypeScript
+- Python
+
