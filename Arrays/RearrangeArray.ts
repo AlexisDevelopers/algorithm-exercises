@@ -1,5 +1,6 @@
 /**
- * Rearrange Array IV (Move Negatives to Front)
+ * Rearrange Array
+ * Link: https://www.typescriptlang.org/play/
  *
  * Given an array of positive and negative integers, in-place segregate them 
  * in linear time and constant space. The output should contain all negative 
