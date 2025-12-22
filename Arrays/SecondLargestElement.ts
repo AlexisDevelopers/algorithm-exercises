@@ -1,5 +1,6 @@
 /**
  * Find Second Largest Element in Array
+ * Link: https://www.typescriptlang.org/play/
  * 
  * Given an array of integers, find the second-largest element present in the array.
  * If the second largest element does not exist (all elements are the same), return -1.
