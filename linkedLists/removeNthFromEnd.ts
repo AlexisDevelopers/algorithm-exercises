@@ -46,18 +46,15 @@ function removeNthFromEnd(head: ListNode | null, n: number): ListNode | null {
   let fast: ListNode | null = dummy;
   let slow: ListNode | null = dummy;
 
-  // Move fast pointer n+1 steps ahead
   for (let i = 0; i <= n; i++) {
     fast = fast!.next;
   }
 
-  // Move both pointers until fast reaches the end
   while (fast !== null) {
     fast = fast.next;
     slow = slow!.next;
   }
 
-  // Remove the nth node from end
   slow!.next = slow!.next!.next;
 
   return dummy.next;
